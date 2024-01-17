@@ -1,0 +1,19 @@
+.header{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(107, 74, 255);
+    font-weight: 3000;
+    font-size: 70px;
+    animation: fadeEffect 3s linear infinite;
+}
+
+@keyframes fadeEffect {
+    0%, 100%{
+        opacity: 3;
+    }
+    
+    50%{
+        opacity: 0; 
+    }
+}
